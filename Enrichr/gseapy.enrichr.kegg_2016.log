@@ -1,17 +1,968 @@
-LINE 73  : 2018-04-21 12:29:23,055 [INFO    ] Connecting to Enrichr Server to get latest library names
-LINE 83  : 2018-04-21 12:29:23,055 [INFO    ] Analysis name: foo, Enrichr Library: KEGG_2016
-LINE 208 : 2018-04-21 12:29:23,057 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
-LINE 396 : 2018-04-21 12:29:24,544 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 46
-LINE 99  : 2018-04-21 12:29:24,545 [DEBUG   ] Job ID:{'shortId': '3rai0', 'userListId': 7167137}
-LINE 208 : 2018-04-21 12:29:24,548 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
-LINE 396 : 2018-04-21 12:29:25,480 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/view?userListId=7167137 HTTP/1.1" 200 None
-LINE 108 : 2018-04-21 12:29:26,489 [INFO    ] Submitted gene list:{'shortId': '3rai0', 'userListId': 7167137}
-LINE 208 : 2018-04-21 12:29:26,492 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
-LINE 396 : 2018-04-21 12:29:27,032 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/enrich?userListId=7167137&backgroundType=KEGG_2016 HTTP/1.1" 200 None
-LINE 118 : 2018-04-21 12:29:27,188 [DEBUG   ] Get enrichment results: Job Id:{'shortId': '3rai0', 'userListId': 7167137}
-LINE 208 : 2018-04-21 12:29:27,191 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
-LINE 396 : 2018-04-21 12:29:27,766 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=7167137&filename=KEGG_2016.foo.enrichr.reports&backgroundType=KEGG_2016 HTTP/1.1" 200 None
-LINE 130 : 2018-04-21 12:29:27,772 [INFO    ] Downloading file of enrichment results: Job Id:{'shortId': '3rai0', 'userListId': 7167137}
-LINE 138 : 2018-04-21 12:29:28,038 [DEBUG   ] Results written to: ../Enrichr/KEGG_2016.foo.enrichr.reports.txt
-LINE 152 : 2018-04-21 12:29:31,192 [INFO    ] Done.
+LINE 73  : 2018-04-24 08:55:30,244 [INFO    ] Connecting to Enrichr Server to get latest library names
+LINE 83  : 2018-04-24 08:55:30,244 [INFO    ] Analysis name: foo, Enrichr Library: KEGG_2016
+LINE 208 : 2018-04-24 08:55:30,246 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-04-24 08:55:31,526 [DEBUG   ] http://amp.pharm.mssm.edu:80 "POST /Enrichr/addList HTTP/1.1" 200 46
+LINE 99  : 2018-04-24 08:55:31,527 [DEBUG   ] Job ID:{'shortId': '3rg2d', 'userListId': 7174350}
+LINE 208 : 2018-04-24 08:55:31,531 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-04-24 08:55:32,294 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/view?userListId=7174350 HTTP/1.1" 200 None
+LINE 108 : 2018-04-24 08:55:33,302 [INFO    ] Submitted gene list:{'shortId': '3rg2d', 'userListId': 7174350}
+LINE 208 : 2018-04-24 08:55:33,306 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-04-24 08:55:33,847 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/enrich?userListId=7174350&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 118 : 2018-04-24 08:55:33,966 [DEBUG   ] Get enrichment results: Job Id:{'shortId': '3rg2d', 'userListId': 7174350}
+LINE 208 : 2018-04-24 08:55:33,970 [DEBUG   ] Starting new HTTP connection (1): amp.pharm.mssm.edu
+LINE 396 : 2018-04-24 08:55:34,620 [DEBUG   ] http://amp.pharm.mssm.edu:80 "GET /Enrichr/export?userListId=7174350&filename=KEGG_2016.foo.enrichr.reports&backgroundType=KEGG_2016 HTTP/1.1" 200 None
+LINE 130 : 2018-04-24 08:55:34,623 [INFO    ] Downloading file of enrichment results: Job Id:{'shortId': '3rg2d', 'userListId': 7174350}
+LINE 138 : 2018-04-24 08:55:34,794 [DEBUG   ] Results written to: ../Enrichr/KEGG_2016.foo.enrichr.reports.txt
+LINE 152 : 2018-04-24 08:55:37,883 [INFO    ] Done.
 
+LINE 121 : 2018-04-24 08:56:11,541 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:56:11,543 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:56:11,543 [DEBUG   ] diff: line_lengths old: 2, new: 1
+LINE 137 : 2018-04-24 08:56:11,544 [DEBUG   ] diff replace old[1:2] new[1:1]
+LINE 257 : 2018-04-24 08:56:11,544 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 08:56:11,545 [DEBUG   ] diff parser end
+LINE 120 : 2018-04-24 08:56:11,561 [DEBUG   ] pickle loaded: /Users/wckdouglas/miniconda3/lib/python3.6/site-packages/gseapy/enrichr.py
+LINE 121 : 2018-04-24 08:56:45,407 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:56:45,408 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:56:45,408 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 08:56:45,408 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 08:56:45,408 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 08:56:45,408 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:56:52,543 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:56:52,544 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:56:52,544 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 08:56:52,544 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 08:56:52,544 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 08:56:52,545 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:56:57,805 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:56:57,805 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:56:57,805 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 08:56:57,805 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 08:56:57,806 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 08:56:57,806 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:57:04,489 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:57:04,490 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:57:04,490 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 08:57:04,490 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 08:57:04,490 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 08:57:04,491 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:59:35,588 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:59:35,588 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:59:35,588 [DEBUG   ] diff: line_lengths old: 1, new: 2
+LINE 137 : 2018-04-24 08:59:35,588 [DEBUG   ] diff replace old[1:1] new[1:2]
+LINE 257 : 2018-04-24 08:59:35,590 [DEBUG   ] parse_part from 1 to 2 (to 1 in part parser)
+LINE 166 : 2018-04-24 08:59:35,590 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:59:42,347 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:59:42,347 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:59:42,347 [DEBUG   ] diff: line_lengths old: 2, new: 2
+LINE 137 : 2018-04-24 08:59:42,347 [DEBUG   ] diff equal old[1:1] new[1:1]
+LINE 208 : 2018-04-24 08:59:42,347 [DEBUG   ] diff actually copy 1 to 1
+LINE 137 : 2018-04-24 08:59:42,347 [DEBUG   ] diff replace old[2:2] new[2:2]
+LINE 257 : 2018-04-24 08:59:42,348 [DEBUG   ] parse_part from 2 to 2 (to 1 in part parser)
+LINE 166 : 2018-04-24 08:59:42,348 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:59:42,868 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:59:42,868 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:59:42,869 [DEBUG   ] diff: line_lengths old: 2, new: 2
+LINE 137 : 2018-04-24 08:59:42,869 [DEBUG   ] diff equal old[1:1] new[1:1]
+LINE 208 : 2018-04-24 08:59:42,869 [DEBUG   ] diff actually copy 1 to 1
+LINE 137 : 2018-04-24 08:59:42,869 [DEBUG   ] diff replace old[2:2] new[2:2]
+LINE 257 : 2018-04-24 08:59:42,869 [DEBUG   ] parse_part from 2 to 2 (to 1 in part parser)
+LINE 166 : 2018-04-24 08:59:42,870 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 08:59:47,994 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 08:59:47,994 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 08:59:47,994 [DEBUG   ] diff: line_lengths old: 2, new: 2
+LINE 137 : 2018-04-24 08:59:47,994 [DEBUG   ] diff equal old[1:1] new[1:1]
+LINE 208 : 2018-04-24 08:59:47,994 [DEBUG   ] diff actually copy 1 to 1
+LINE 137 : 2018-04-24 08:59:47,994 [DEBUG   ] diff replace old[2:2] new[2:2]
+LINE 257 : 2018-04-24 08:59:47,995 [DEBUG   ] parse_part from 2 to 2 (to 1 in part parser)
+LINE 166 : 2018-04-24 08:59:47,995 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 09:01:01,952 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:01,953 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:01:01,953 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:01:02,152 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:02,152 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:02,154 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:02,154 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:25,083 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:25,084 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:01:25,084 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:01:25,297 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:25,297 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:25,299 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:25,299 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:48,326 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:48,326 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:01:48,326 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:01:48,525 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:48,525 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:48,528 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:48,528 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:49,386 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:49,386 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:01:49,386 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:01:49,588 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:49,588 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 09:01:49,591 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:01:49,591 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 121 : 2018-04-24 09:07:31,569 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:07:31,569 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:07:31,569 [DEBUG   ] diff: line_lengths old: 2, new: 1
+LINE 137 : 2018-04-24 09:07:31,569 [DEBUG   ] diff replace old[1:2] new[1:1]
+LINE 257 : 2018-04-24 09:07:31,569 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:07:31,570 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:07:32,862 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:07:32,863 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:07:32,863 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:07:32,863 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:07:32,864 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:07:32,864 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:07:33,707 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:07:33,707 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:07:33,707 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:07:33,707 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:07:33,708 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:07:33,708 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:07:55,164 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:07:55,165 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:07:55,166 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:07:55,166 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:07:55,167 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:07:55,167 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:08:02,109 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:08:02,110 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:08:02,110 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:08:02,110 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:08:02,111 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:08:02,111 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:08:03,296 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:08:03,296 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:08:03,296 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:08:03,296 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:08:03,297 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:08:03,297 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:38:01,258 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:38:01,259 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:38:01,259 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:38:01,259 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:38:01,260 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:38:01,260 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:38:18,964 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:38:18,964 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:38:18,964 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:38:18,964 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:38:18,965 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:38:18,965 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:38:22,016 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:38:22,016 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:38:22,016 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:38:22,016 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:38:22,017 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:38:22,017 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:38:25,086 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:38:25,087 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:38:25,087 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:38:25,087 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:38:25,087 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:38:25,088 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:38:45,061 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:38:45,061 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:38:45,061 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:38:45,062 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:38:45,062 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:38:45,062 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:40:50,445 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:40:50,445 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:40:50,445 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:40:50,445 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:40:50,446 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:40:50,446 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:40:51,099 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:40:51,100 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:40:51,100 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:40:51,100 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:40:51,101 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:40:51,101 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:41:01,746 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:41:01,746 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:41:01,746 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:41:01,746 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:41:01,747 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:41:01,747 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:43:39,083 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:43:39,083 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:43:39,083 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:43:39,083 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:43:39,085 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:43:39,085 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:44:08,938 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:44:08,938 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:44:08,938 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:44:08,939 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:44:08,940 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:44:08,941 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:45:53,911 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:45:53,911 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:45:53,911 [DEBUG   ] diff: line_lengths old: 1, new: 8
+LINE 137 : 2018-04-24 09:45:53,911 [DEBUG   ] diff replace old[1:1] new[1:8]
+LINE 257 : 2018-04-24 09:45:53,915 [DEBUG   ] parse_part from 1 to 8 (to 7 in part parser)
+LINE 166 : 2018-04-24 09:45:53,916 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:45:58,477 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:45:58,478 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:45:58,478 [DEBUG   ] diff: line_lengths old: 8, new: 9
+LINE 137 : 2018-04-24 09:45:58,478 [DEBUG   ] diff equal old[1:7] new[1:7]
+LINE 208 : 2018-04-24 09:45:58,478 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:45:58,480 [DEBUG   ] parse_part from 6 to 9 (to 8 in part parser)
+LINE 137 : 2018-04-24 09:45:58,481 [DEBUG   ] diff replace old[8:8] new[8:9]
+LINE 166 : 2018-04-24 09:45:58,481 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:45:59,795 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:45:59,796 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:45:59,796 [DEBUG   ] diff: line_lengths old: 9, new: 9
+LINE 137 : 2018-04-24 09:45:59,796 [DEBUG   ] diff equal old[1:8] new[1:8]
+LINE 208 : 2018-04-24 09:45:59,796 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:45:59,798 [DEBUG   ] parse_part from 6 to 9 (to 8 in part parser)
+LINE 137 : 2018-04-24 09:45:59,798 [DEBUG   ] diff replace old[9:9] new[9:9]
+LINE 166 : 2018-04-24 09:45:59,798 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:46:03,926 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:46:03,927 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:46:03,927 [DEBUG   ] diff: line_lengths old: 9, new: 1
+LINE 137 : 2018-04-24 09:46:03,927 [DEBUG   ] diff replace old[1:9] new[1:1]
+LINE 257 : 2018-04-24 09:46:03,929 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:46:03,929 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:46:47,799 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:46:47,799 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:46:47,799 [DEBUG   ] diff: line_lengths old: 1, new: 9
+LINE 137 : 2018-04-24 09:46:47,799 [DEBUG   ] diff replace old[1:1] new[1:9]
+LINE 257 : 2018-04-24 09:46:47,804 [DEBUG   ] parse_part from 1 to 9 (to 8 in part parser)
+LINE 166 : 2018-04-24 09:46:47,805 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:47:05,845 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:47:05,845 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:47:05,845 [DEBUG   ] diff: line_lengths old: 9, new: 11
+LINE 137 : 2018-04-24 09:47:05,845 [DEBUG   ] diff equal old[1:8] new[1:8]
+LINE 208 : 2018-04-24 09:47:05,846 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:47:05,849 [DEBUG   ] parse_part from 6 to 11 (to 10 in part parser)
+LINE 137 : 2018-04-24 09:47:05,849 [DEBUG   ] diff replace old[9:9] new[9:11]
+LINE 166 : 2018-04-24 09:47:05,849 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:47:26,343 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:47:26,343 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:47:26,343 [DEBUG   ] diff: line_lengths old: 11, new: 12
+LINE 137 : 2018-04-24 09:47:26,343 [DEBUG   ] diff equal old[1:9] new[1:9]
+LINE 208 : 2018-04-24 09:47:26,344 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:47:26,348 [DEBUG   ] parse_part from 6 to 12 (to 11 in part parser)
+LINE 137 : 2018-04-24 09:47:26,348 [DEBUG   ] diff insert old[10:9] new[10:10]
+LINE 137 : 2018-04-24 09:47:26,348 [DEBUG   ] diff equal old[10:10] new[11:11]
+LINE 137 : 2018-04-24 09:47:26,348 [DEBUG   ] diff replace old[11:11] new[12:12]
+LINE 166 : 2018-04-24 09:47:26,349 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:47:43,870 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:47:43,870 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:47:43,870 [DEBUG   ] diff: line_lengths old: 12, new: 12
+LINE 137 : 2018-04-24 09:47:43,870 [DEBUG   ] diff equal old[1:9] new[1:9]
+LINE 208 : 2018-04-24 09:47:43,870 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:47:43,875 [DEBUG   ] parse_part from 6 to 12 (to 11 in part parser)
+LINE 137 : 2018-04-24 09:47:43,875 [DEBUG   ] diff replace old[10:10] new[10:10]
+LINE 137 : 2018-04-24 09:47:43,875 [DEBUG   ] diff equal old[11:12] new[11:12]
+LINE 166 : 2018-04-24 09:47:43,875 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:48:06,118 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:48:06,118 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:48:06,119 [DEBUG   ] diff: line_lengths old: 12, new: 13
+LINE 137 : 2018-04-24 09:48:06,119 [DEBUG   ] diff equal old[1:9] new[1:9]
+LINE 208 : 2018-04-24 09:48:06,119 [DEBUG   ] diff actually copy 1 to 5
+LINE 257 : 2018-04-24 09:48:06,123 [DEBUG   ] parse_part from 6 to 13 (to 12 in part parser)
+LINE 137 : 2018-04-24 09:48:06,124 [DEBUG   ] diff replace old[10:10] new[10:10]
+LINE 137 : 2018-04-24 09:48:06,124 [DEBUG   ] diff equal old[11:11] new[11:11]
+LINE 137 : 2018-04-24 09:48:06,124 [DEBUG   ] diff replace old[12:12] new[12:13]
+LINE 166 : 2018-04-24 09:48:06,124 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:48:29,346 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:48:29,346 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:48:29,346 [DEBUG   ] diff: line_lengths old: 13, new: 1
+LINE 137 : 2018-04-24 09:48:29,347 [DEBUG   ] diff replace old[1:13] new[1:1]
+LINE 257 : 2018-04-24 09:48:29,347 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:48:29,347 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:48:38,764 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:48:38,764 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:48:38,764 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:48:38,765 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:48:38,765 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:48:38,765 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:48:41,622 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:48:41,625 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:48:41,625 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:48:41,625 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:48:41,626 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:48:41,626 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:48:48,486 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:48:48,486 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:48:48,487 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:48:48,487 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:48:48,488 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:48:48,488 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:50:06,581 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:50:06,582 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:50:06,582 [DEBUG   ] diff: line_lengths old: 1, new: 4
+LINE 137 : 2018-04-24 09:50:06,582 [DEBUG   ] diff replace old[1:1] new[1:4]
+LINE 257 : 2018-04-24 09:50:06,585 [DEBUG   ] parse_part from 1 to 4 (to 3 in part parser)
+LINE 166 : 2018-04-24 09:50:06,585 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 09:50:11,752 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:11,752 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:50:11,752 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:50:11,942 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:11,942 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:50:11,945 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:11,945 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:50:35,476 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:35,477 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:50:35,477 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:50:35,662 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:35,662 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:50:35,664 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:50:35,664 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:51:13,215 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:13,215 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:51:13,216 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:51:13,402 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:13,403 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:51:13,404 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:13,404 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 121 : 2018-04-24 09:51:33,783 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:51:33,784 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:51:33,784 [DEBUG   ] diff: line_lengths old: 4, new: 4
+LINE 137 : 2018-04-24 09:51:33,784 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:51:33,784 [DEBUG   ] parse_part from 1 to 1 (to 1 in part parser)
+LINE 137 : 2018-04-24 09:51:33,785 [DEBUG   ] diff equal old[2:2] new[2:2]
+LINE 208 : 2018-04-24 09:51:33,785 [DEBUG   ] diff actually copy 2 to 2
+LINE 137 : 2018-04-24 09:51:33,785 [DEBUG   ] diff replace old[3:4] new[3:4]
+LINE 257 : 2018-04-24 09:51:33,786 [DEBUG   ] parse_part from 3 to 4 (to 3 in part parser)
+LINE 166 : 2018-04-24 09:51:33,787 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 09:51:37,779 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:37,779 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:51:37,779 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:51:37,966 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:37,966 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:51:37,968 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:51:37,968 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:52:43,420 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:52:43,421 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:52:43,421 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:52:43,625 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:52:43,626 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:52:43,627 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:52:43,627 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 121 : 2018-04-24 09:52:51,934 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:52:51,935 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:52:51,936 [DEBUG   ] diff: line_lengths old: 4, new: 1
+LINE 137 : 2018-04-24 09:52:51,936 [DEBUG   ] diff replace old[1:4] new[1:1]
+LINE 257 : 2018-04-24 09:52:51,936 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:52:51,936 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:52:52,373 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:52:52,373 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:52:52,373 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:52:52,373 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:52:52,374 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:52:52,374 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 09:53:59,346 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:53:59,346 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:53:59,347 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:53:59,531 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:53:59,531 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:53:59,533 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:53:59,533 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 121 : 2018-04-24 09:55:03,053 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:55:03,054 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:55:03,054 [DEBUG   ] diff: line_lengths old: 1, new: 13
+LINE 137 : 2018-04-24 09:55:03,054 [DEBUG   ] diff replace old[1:1] new[1:13]
+LINE 257 : 2018-04-24 09:55:03,063 [DEBUG   ] parse_part from 1 to 13 (to 12 in part parser)
+LINE 166 : 2018-04-24 09:55:03,063 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 09:55:05,381 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:55:05,382 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 09:55:05,382 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 09:55:05,571 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:55:05,571 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 09:55:05,573 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 09:55:05,573 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 121 : 2018-04-24 09:59:02,604 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:59:02,605 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:59:02,605 [DEBUG   ] diff: line_lengths old: 13, new: 19
+LINE 137 : 2018-04-24 09:59:02,605 [DEBUG   ] diff replace old[1:1] new[1:2]
+LINE 257 : 2018-04-24 09:59:02,610 [DEBUG   ] parse_part from 1 to 6 (to 6 in part parser)
+LINE 137 : 2018-04-24 09:59:02,610 [DEBUG   ] diff equal old[2:6] new[3:7]
+LINE 257 : 2018-04-24 09:59:02,617 [DEBUG   ] parse_part from 7 to 16 (to 16 in part parser)
+LINE 137 : 2018-04-24 09:59:02,617 [DEBUG   ] diff replace old[7:13] new[8:19]
+LINE 257 : 2018-04-24 09:59:02,618 [DEBUG   ] parse_part from 17 to 19 (to 18 in part parser)
+LINE 166 : 2018-04-24 09:59:02,618 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:59:30,382 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:59:30,382 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:59:30,382 [DEBUG   ] diff: line_lengths old: 19, new: 1
+LINE 137 : 2018-04-24 09:59:30,382 [DEBUG   ] diff replace old[1:19] new[1:1]
+LINE 257 : 2018-04-24 09:59:30,383 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:59:30,383 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:59:39,005 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:59:39,005 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:59:39,005 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:59:39,005 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:59:39,006 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:59:39,006 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 09:59:45,812 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 09:59:45,812 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 09:59:45,812 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 09:59:45,812 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 09:59:45,813 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 09:59:45,814 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 10:00:23,307 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:00:23,308 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:00:23,308 [DEBUG   ] diff: line_lengths old: 1, new: 21
+LINE 137 : 2018-04-24 10:00:23,308 [DEBUG   ] diff replace old[1:1] new[1:21]
+LINE 257 : 2018-04-24 10:00:23,317 [DEBUG   ] parse_part from 1 to 21 (to 20 in part parser)
+LINE 166 : 2018-04-24 10:00:23,318 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 10:00:28,025 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:28,026 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:00:28,027 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:00:28,328 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:28,328 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:28,330 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:28,330 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:29,428 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:29,428 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:00:29,428 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:00:29,648 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:29,649 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:29,650 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:29,651 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:30,989 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:30,989 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:00:30,990 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:00:31,309 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:31,309 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:31,314 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:31,315 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:32,280 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:32,280 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:00:32,281 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:00:32,466 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:32,466 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:00:32,468 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:00:32,468 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:01,517 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:01,517 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:01,518 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:01,702 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:01,702 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:01,703 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:01,703 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:02,942 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:02,942 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:02,943 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:03,133 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:03,133 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:03,135 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:03,135 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:03,951 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:03,952 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:03,952 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:04,137 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:04,137 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:04,140 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:04,140 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:05,261 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:05,261 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:05,261 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:05,452 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:05,452 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:05,453 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:05,454 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:32,312 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:32,312 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:32,312 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:32,523 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:32,523 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:32,524 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:32,525 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:33,365 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:33,365 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:33,366 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:33,559 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:33,559 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:33,561 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:33,561 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:34,505 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:34,505 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:34,506 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:34,696 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:34,696 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:34,698 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:34,698 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:35,662 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:35,662 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:35,662 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:35,849 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:35,849 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:35,852 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:35,852 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:39,050 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:39,052 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:39,053 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:39,321 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:39,322 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:39,325 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:39,325 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:40,357 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:40,358 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:40,358 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:40,546 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:40,546 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:40,547 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:40,547 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:41,688 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:41,689 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:41,689 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:41,898 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:41,899 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:41,902 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:41,902 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:43,032 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:43,033 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:01:43,033 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:01:43,236 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:43,236 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:01:43,237 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:01:43,237 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:17,041 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:17,042 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:02:17,042 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:02:17,255 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:17,255 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:17,257 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:17,257 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:18,177 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:18,178 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:02:18,178 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:02:18,398 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:18,398 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:18,400 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:18,400 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:19,259 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:19,259 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:02:19,259 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:02:19,445 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:19,445 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:19,447 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:19,447 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:20,522 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:20,523 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:02:20,523 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:02:20,773 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:20,773 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:02:20,776 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:02:20,776 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:03:09,054 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:09,056 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:03:09,056 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:03:09,270 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:09,270 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:03:09,272 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:09,272 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:03:11,418 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:11,418 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:03:11,419 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:03:11,644 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:11,644 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:03:11,646 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:11,646 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:03:13,771 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:13,771 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:03:13,771 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:03:13,917 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:13,917 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:03:13,919 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:13,920 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:03:15,953 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:15,953 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:03:15,953 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:03:16,154 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:16,154 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:03:16,156 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:03:16,156 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:06:12,154 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:12,155 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:12,156 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:12,420 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:12,420 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:06:12,423 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:12,423 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:06:14,512 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:14,512 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:14,512 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:14,743 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:14,744 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:06:14,747 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:14,747 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:06:16,663 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:16,664 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:16,664 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:17,100 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:17,100 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:06:17,144 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:17,148 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:06:18,842 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:18,843 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:18,843 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:19,071 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:19,071 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:06:19,072 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:19,073 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:06:52,685 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:52,685 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:52,686 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:52,876 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:52,876 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:06:52,878 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:52,878 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:06:55,080 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:55,081 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:55,081 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:55,296 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:55,297 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:06:55,298 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:55,299 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:06:57,158 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:57,158 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:57,158 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:57,330 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:57,330 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:06:57,332 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:57,332 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:06:59,068 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:59,068 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:06:59,068 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:06:59,315 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:59,315 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:06:59,318 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:06:59,318 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:07:25,216 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:25,216 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:25,217 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:25,403 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:25,403 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:07:25,404 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:25,405 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:07:27,438 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:27,439 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:27,439 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:27,748 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:27,748 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:07:27,750 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:27,750 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:07:29,830 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:29,834 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:29,834 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:30,117 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:30,117 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:07:30,121 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:30,122 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:07:31,748 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:31,748 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:31,750 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:32,015 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:32,015 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:07:32,018 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:32,018 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:07:43,313 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:43,314 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:43,314 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:43,516 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:43,516 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:07:43,519 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:43,519 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:07:45,497 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:45,497 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:45,498 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:45,711 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:45,711 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:07:45,713 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:45,713 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:07:47,777 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:47,777 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:47,778 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:47,934 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:47,934 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:07:47,936 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:47,936 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:07:49,644 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:49,644 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:07:49,645 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:07:49,960 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:49,960 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:07:49,972 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:07:49,972 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:08:21,452 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:21,453 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:08:21,453 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:08:21,640 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:21,640 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:08:21,642 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:21,642 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:08:24,242 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:24,243 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:08:24,243 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:08:24,475 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:24,475 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:08:24,477 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:24,477 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:08:26,410 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:26,410 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:08:26,411 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:08:26,545 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:26,545 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:08:26,547 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:26,547 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:08:28,376 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:28,377 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:08:28,377 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:08:28,614 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:28,614 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:08:28,615 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:08:28,615 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 121 : 2018-04-24 10:09:24,949 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:09:24,951 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:09:24,951 [DEBUG   ] diff: line_lengths old: 21, new: 25
+LINE 137 : 2018-04-24 10:09:24,951 [DEBUG   ] diff equal old[1:3] new[1:3]
+LINE 257 : 2018-04-24 10:09:24,957 [DEBUG   ] parse_part from 1 to 6 (to 6 in part parser)
+LINE 137 : 2018-04-24 10:09:24,957 [DEBUG   ] diff replace old[4:7] new[4:10]
+LINE 257 : 2018-04-24 10:09:24,959 [DEBUG   ] parse_part from 7 to 10 (to 10 in part parser)
+LINE 137 : 2018-04-24 10:09:24,960 [DEBUG   ] diff equal old[8:16] new[11:19]
+LINE 257 : 2018-04-24 10:09:24,965 [DEBUG   ] parse_part from 11 to 22 (to 22 in part parser)
+LINE 137 : 2018-04-24 10:09:24,965 [DEBUG   ] diff insert old[17:16] new[20:20]
+LINE 137 : 2018-04-24 10:09:24,965 [DEBUG   ] diff equal old[17:18] new[21:22]
+LINE 137 : 2018-04-24 10:09:24,965 [DEBUG   ] diff replace old[19:19] new[23:23]
+LINE 257 : 2018-04-24 10:09:24,966 [DEBUG   ] parse_part from 23 to 23 (to 23 in part parser)
+LINE 137 : 2018-04-24 10:09:24,966 [DEBUG   ] diff equal old[20:21] new[24:25]
+LINE 208 : 2018-04-24 10:09:24,967 [DEBUG   ] diff actually copy 24 to 25
+LINE 166 : 2018-04-24 10:09:24,967 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 10:09:29,068 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:29,068 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:09:29,069 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:09:29,318 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:29,319 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:09:29,321 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:29,322 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:09:31,465 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:31,465 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:09:31,465 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:09:31,688 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:31,688 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:09:31,690 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:31,690 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:09:33,651 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:33,652 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:09:33,652 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:09:33,808 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:33,809 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:09:33,811 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:33,812 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:09:35,627 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:35,627 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:09:35,628 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:09:35,845 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:35,845 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:09:35,846 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:09:35,847 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:11:55,798 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:55,798 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:11:55,799 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:11:56,007 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:56,007 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:11:56,009 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:56,009 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:11:57,922 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:57,922 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:11:57,923 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:11:58,135 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:58,135 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:11:58,137 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:58,137 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:11:59,989 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:11:59,989 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:11:59,990 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:12:00,131 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:12:00,132 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:12:00,133 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:12:00,133 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:12:02,144 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:12:02,144 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:12:02,144 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:12:02,343 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:12:02,343 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:12:02,344 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:12:02,344 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 121 : 2018-04-24 10:12:18,894 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:12:18,894 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:12:18,894 [DEBUG   ] diff: line_lengths old: 25, new: 1
+LINE 137 : 2018-04-24 10:12:18,894 [DEBUG   ] diff replace old[1:25] new[1:1]
+LINE 257 : 2018-04-24 10:12:18,894 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 10:12:18,895 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 10:12:21,855 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:12:21,856 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:12:21,856 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 10:12:21,856 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 10:12:21,856 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 10:12:21,856 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 10:12:23,024 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:12:23,024 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:12:23,025 [DEBUG   ] diff: line_lengths old: 1, new: 1
+LINE 137 : 2018-04-24 10:12:23,025 [DEBUG   ] diff replace old[1:1] new[1:1]
+LINE 257 : 2018-04-24 10:12:23,025 [DEBUG   ] parse_part from 1 to 1 (to 0 in part parser)
+LINE 166 : 2018-04-24 10:12:23,025 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 10:20:12,788 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:20:12,789 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:20:12,789 [DEBUG   ] diff: line_lengths old: 1, new: 28
+LINE 137 : 2018-04-24 10:20:12,790 [DEBUG   ] diff replace old[1:1] new[1:28]
+LINE 257 : 2018-04-24 10:20:12,801 [DEBUG   ] parse_part from 1 to 28 (to 27 in part parser)
+LINE 166 : 2018-04-24 10:20:12,801 [DEBUG   ] diff parser end
+LINE 121 : 2018-04-24 10:20:25,165 [DEBUG   ] diff parser start
+LINE 132 : 2018-04-24 10:20:25,165 [DEBUG   ] diff parser calculated
+LINE 133 : 2018-04-24 10:20:25,165 [DEBUG   ] diff: line_lengths old: 28, new: 28
+LINE 137 : 2018-04-24 10:20:25,165 [DEBUG   ] diff equal old[1:16] new[1:16]
+LINE 208 : 2018-04-24 10:20:25,165 [DEBUG   ] diff actually copy 1 to 10
+LINE 257 : 2018-04-24 10:20:25,173 [DEBUG   ] parse_part from 11 to 24 (to 24 in part parser)
+LINE 137 : 2018-04-24 10:20:25,173 [DEBUG   ] diff replace old[17:17] new[17:17]
+LINE 137 : 2018-04-24 10:20:25,173 [DEBUG   ] diff equal old[18:28] new[18:28]
+LINE 208 : 2018-04-24 10:20:25,173 [DEBUG   ] diff actually copy 25 to 28
+LINE 166 : 2018-04-24 10:20:25,173 [DEBUG   ] diff parser end
+LINE 131 : 2018-04-24 10:21:12,263 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:12,263 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:21:12,263 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:21:12,446 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:12,446 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:21:12,448 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:12,448 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:21:14,456 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:14,456 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:21:14,456 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:21:14,690 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:14,690 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:21:14,692 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:14,692 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:21:16,633 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:16,633 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:21:16,634 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:21:16,768 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:16,769 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:21:16,770 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:16,771 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:21:18,646 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:18,646 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:21:18,646 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:21:18,854 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:18,854 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:21:18,856 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:18,856 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:21:58,099 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:58,100 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:21:58,100 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:21:58,296 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:58,297 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:21:58,298 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:21:58,298 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:22:00,094 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:00,095 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:22:00,095 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:22:00,308 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:00,309 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:22:00,312 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:00,312 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:22:02,338 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:02,338 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:22:02,339 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:22:02,516 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:02,517 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:22:02,519 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:02,520 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:22:04,331 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:04,332 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:22:04,333 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:22:04,708 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:04,708 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:22:04,709 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:22:04,709 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:29,292 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:29,294 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:29,294 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:29,478 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:29,478 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:29,480 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:29,480 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:31,728 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:31,728 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:31,729 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:31,949 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:31,949 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:31,951 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:31,951 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:33,675 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:33,675 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:33,675 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:33,812 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:33,812 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:33,814 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:33,814 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:35,415 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:35,416 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:35,416 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:35,617 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:35,618 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:35,619 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:35,619 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:44,212 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:44,213 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:44,213 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:44,439 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:44,439 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:44,441 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:44,441 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:46,587 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:46,587 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:46,587 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:46,809 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:46,809 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:46,811 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:46,811 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:48,722 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:48,722 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:48,722 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:48,854 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:48,854 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:48,856 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:48,856 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:50,879 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:50,880 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:50,880 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:51,112 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:51,112 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:51,116 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:51,116 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:53,092 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:53,092 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:53,092 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:53,366 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:53,367 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:53,375 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:53,375 [DEBUG   ] STREAM b'IDAT' 41 32389
+LINE 131 : 2018-04-24 10:26:55,474 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:55,474 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:55,474 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:55,686 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:55,687 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:55,688 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:55,688 [DEBUG   ] STREAM b'IDAT' 41 53342
+LINE 131 : 2018-04-24 10:26:57,324 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:57,324 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:57,325 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:57,462 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:57,462 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:57,463 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:57,464 [DEBUG   ] STREAM b'IDAT' 41 32539
+LINE 131 : 2018-04-24 10:26:59,226 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:59,226 [DEBUG   ] STREAM b'pHYs' 41 9
+LINE 131 : 2018-04-24 10:26:59,226 [DEBUG   ] STREAM b'IDAT' 62 8192
+LINE 131 : 2018-04-24 10:26:59,425 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:59,425 [DEBUG   ] STREAM b'IDAT' 41 43826
+LINE 131 : 2018-04-24 10:26:59,427 [DEBUG   ] STREAM b'IHDR' 16 13
+LINE 131 : 2018-04-24 10:26:59,427 [DEBUG   ] STREAM b'IDAT' 41 43826
